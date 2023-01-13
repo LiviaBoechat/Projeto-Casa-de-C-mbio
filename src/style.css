@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#282C33;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+header h1 {
+  display: flex;
+  width: 900px;
+  font-size: 60px;
+  color: white;
+  font-family: 'Fira Code', monospace;
+}
+
+header a {
+  color: #95EBA8;
+  margin: 0 0 0 30px;
+}
+
+label{
+  color: white;
+  font-family: 'Fira Code', monospace;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#box {
+  /* background-color: purple; */
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 900px;
+  
+}
+
+#input-container {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  padding: 20px 20px 20px 0px;
+}
+
+#search-button{
+    width: 100%;
+    max-width: 171px;
+    height: 48px;
+    background-color: #96EB95;
+    border: 1px solid #96EB95;
+    border-radius:10px;
+    font-size: 20px;
+    color: #373737;
+}
+
+#currency-input{
+  width: 171px;
+  height: 48px;
+  background-color: rgba(217, 217, 217, 0.1);
+  border-radius: 10px;
+  border: none;
+  padding: 8px;
+}
+
+.main-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  height: 583px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+#title-board {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: red; */
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow-y: scroll;
+}
+
+.currencies {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 20%;
+  height: 44px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  justify-content: center;  
+  background-color: rgba(240, 248, 255, 0.273);
+  margin: 10px;
+  padding: 2px;
+}
